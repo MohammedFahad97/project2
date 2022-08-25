@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Orbitron&family=Red+Rose&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Orbitron&family=Red+Rose&family=Roboto+Mono:wght@500&display=swap');
+
+
+body{
+  display: block;
+  
+ background-image: url("./pexels-maxyne-barcel-10402282\ 1.png");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+#overlay {
+  position: fixed; 
+  
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+  cursor: pointer; 
+}
+
+.logo{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.list{
+  position: absolute;
+  margin-top: 70px;
+  columns: 4;
+  float: left;
+  column-gap: 50px;
+  list-style-type: none;
+  margin-left: 37%;
+  font-family: 'Montserrat';
+  color: goldenrod;
+font-size: 25px;
+  
+}
+.button-small{
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 57px ;
+  padding-left: 55px ;
+  padding-right: 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Montserrat';
+  font-size:medium;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  background-color:crimson;
+  border: 1px crimson;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.hero-heading{
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 25%;
+  font-family: "Red Rose",cursive;
+  font-size: 110px;
+  color: goldenrod;
+  
+}
+.hero-heading2{
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 34%;
+  font-family: "Red Rose",cursive;
+  font-size: 110px;
+  color: goldenrod;
+
+}
+.hero-heading3{
+  position: absolute;
+  margin-top: 25.5%;
+  margin-left: 31%;
+  font-family: "Red Rose",cursive;
+  font-size: 110px;
+  color: goldenrod;
+
+}
+.button-large{
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 44%;
+  padding-left: 60px ;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat';
+  font-size: larger;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  background-color:crimson;
+  border: 1px crimson;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.bottom{
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 84.5%;
+  
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
